@@ -1,0 +1,948 @@
+2019-09-04 18:13:25,069 [main] INFO  [com.inforefiner.util.LogsUtils] - >> log4jPathD:\Code\count_records\src\main\resources\log4j.properties
+2019-09-04 18:13:25,406 [main] INFO  [org.apache.spark.SparkContext] - Running Spark version 2.1.1
+2019-09-04 18:13:26,061 [main] ERROR [org.apache.spark.SparkContext] - Error initializing SparkContext.
+org.apache.spark.SparkException: A master URL must be set in your configuration
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:379)
+	at com.inforefiner.excuter.CountRecordsExcuter$.main(CountRecordsExcuter.scala:27)
+	at com.inforefiner.excuter.CountRecordsExcuter.main(CountRecordsExcuter.scala)
+2019-09-04 18:13:26,129 [main] INFO  [org.apache.spark.SparkContext] - Successfully stopped SparkContext
+2019-09-04 18:14:05,247 [main] INFO  [com.inforefiner.util.LogsUtils] - >> log4jPathD:\Code\count_records\src\main\resources\log4j.properties
+2019-09-04 18:14:05,548 [main] INFO  [org.apache.spark.SparkContext] - Running Spark version 2.1.1
+2019-09-04 18:14:06,140 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls to: Kechel
+2019-09-04 18:14:06,141 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls to: Kechel
+2019-09-04 18:14:06,141 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls groups to: 
+2019-09-04 18:14:06,142 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls groups to: 
+2019-09-04 18:14:06,143 [main] INFO  [org.apache.spark.SecurityManager] - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Kechel); groups with view permissions: Set(); users  with modify permissions: Set(Kechel); groups with modify permissions: Set()
+2019-09-04 18:14:07,363 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'sparkDriver' on port 64727.
+2019-09-04 18:14:07,384 [main] INFO  [org.apache.spark.SparkEnv] - Registering MapOutputTracker
+2019-09-04 18:14:07,404 [main] INFO  [org.apache.spark.SparkEnv] - Registering BlockManagerMaster
+2019-09-04 18:14:07,408 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-09-04 18:14:07,409 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - BlockManagerMasterEndpoint up
+2019-09-04 18:14:07,444 [main] INFO  [org.apache.spark.storage.DiskBlockManager] - Created local directory at C:\Users\18246\AppData\Local\Temp\blockmgr-5fbddafc-f4a1-4ddf-a440-a99cea9f4339
+2019-09-04 18:14:07,463 [main] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore started with capacity 1988.7 MB
+2019-09-04 18:14:07,513 [main] INFO  [org.apache.spark.SparkEnv] - Registering OutputCommitCoordinator
+2019-09-04 18:14:07,609 [main] INFO  [org.spark_project.jetty.util.log] - Logging initialized @2876ms
+2019-09-04 18:14:07,704 [main] INFO  [org.spark_project.jetty.server.Server] - jetty-9.2.z-SNAPSHOT
+2019-09-04 18:14:07,719 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@53ab0286{/jobs,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,719 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@63c5efee{/jobs/json,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,719 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2d10e0b1{/jobs/job,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,719 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1c98290c{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,720 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@172ca72b{/stages,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,720 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5bda80bf{/stages/json,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,720 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@71e5f61d{/stages/stage,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,720 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2ce86164{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,720 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/pool,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,720 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@51df223b{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,721 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@fd46303{/storage,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,721 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60d8c0dc{/storage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,721 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4204541c{/storage/rdd,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,721 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6a62689d{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,721 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4602c2a9{/environment,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,722 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60fa3495{/environment/json,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,722 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@3e2822{/executors,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,722 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@79e18e38{/executors/json,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,722 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@29a60c27{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,722 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1849db1a{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,729 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@69c79f09{/static,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,730 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1ca25c47{/,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,730 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5fcacc0{/api,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,730 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@533b266e{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,730 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6d1d4d7{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:14:07,737 [main] INFO  [org.spark_project.jetty.server.ServerConnector] - Started Spark@2f94c4db{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:14:07,737 [main] INFO  [org.spark_project.jetty.server.Server] - Started @3006ms
+2019-09-04 18:14:07,737 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'SparkUI' on port 4040.
+2019-09-04 18:14:07,740 [main] INFO  [org.apache.spark.ui.SparkUI] - Bound SparkUI to 0.0.0.0, and started at http://192.168.191.1:4040
+2019-09-04 18:14:07,839 [main] INFO  [org.apache.spark.executor.Executor] - Starting executor ID driver on host localhost
+2019-09-04 18:14:07,876 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 64768.
+2019-09-04 18:14:07,877 [main] INFO  [org.apache.spark.network.netty.NettyBlockTransferService] - Server created on 192.168.191.1:64768
+2019-09-04 18:14:07,880 [main] INFO  [org.apache.spark.storage.BlockManager] - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-09-04 18:14:07,881 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registering BlockManager BlockManagerId(driver, 192.168.191.1, 64768, None)
+2019-09-04 18:14:07,884 [dispatcher-event-loop-6] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Registering block manager 192.168.191.1:64768 with 1988.7 MB RAM, BlockManagerId(driver, 192.168.191.1, 64768, None)
+2019-09-04 18:14:07,887 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registered BlockManager BlockManagerId(driver, 192.168.191.1, 64768, None)
+2019-09-04 18:14:07,887 [main] INFO  [org.apache.spark.storage.BlockManager] - Initialized BlockManager: BlockManagerId(driver, 192.168.191.1, 64768, None)
+2019-09-04 18:14:08,058 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@64711bf2{/metrics/json,null,AVAILABLE,@Spark}
+2019-09-04 18:14:08,098 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>初始化Spark完成<<<<<<<<<<<<<<<<<
+2019-09-04 18:14:08,101 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>>>>>>>>开始任务<<<<<<<<<<<<<<<<<<<<<<
+2019-09-04 18:14:08,101 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>采集任务<<<<<<<<<<<<<<<<<
+2019-09-04 18:14:12,361 [Thread-1] INFO  [org.apache.spark.SparkContext] - Invoking stop() from shutdown hook
+2019-09-04 18:14:12,365 [Thread-1] INFO  [org.spark_project.jetty.server.ServerConnector] - Stopped Spark@2f94c4db{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:14:12,366 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6d1d4d7{/stages/stage/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,366 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@533b266e{/jobs/job/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,366 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5fcacc0{/api,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,366 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1ca25c47{/,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@69c79f09{/static,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1849db1a{/executors/threadDump/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@29a60c27{/executors/threadDump,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@79e18e38{/executors/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@3e2822{/executors,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60fa3495{/environment/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4602c2a9{/environment,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6a62689d{/storage/rdd/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4204541c{/storage/rdd,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60d8c0dc{/storage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,368 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@fd46303{/storage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,368 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@51df223b{/stages/pool/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,368 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/pool,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,368 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2ce86164{/stages/stage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,368 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@71e5f61d{/stages/stage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,368 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5bda80bf{/stages/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,368 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@172ca72b{/stages,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,368 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1c98290c{/jobs/job/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,368 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2d10e0b1{/jobs/job,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,369 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@63c5efee{/jobs/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,369 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@53ab0286{/jobs,null,UNAVAILABLE,@Spark}
+2019-09-04 18:14:12,370 [Thread-1] INFO  [org.apache.spark.ui.SparkUI] - Stopped Spark web UI at http://192.168.191.1:4040
+2019-09-04 18:14:12,381 [dispatcher-event-loop-5] INFO  [org.apache.spark.MapOutputTrackerMasterEndpoint] - MapOutputTrackerMasterEndpoint stopped!
+2019-09-04 18:14:12,389 [Thread-1] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore cleared
+2019-09-04 18:14:12,390 [Thread-1] INFO  [org.apache.spark.storage.BlockManager] - BlockManager stopped
+2019-09-04 18:14:12,398 [Thread-1] INFO  [org.apache.spark.storage.BlockManagerMaster] - BlockManagerMaster stopped
+2019-09-04 18:14:12,402 [dispatcher-event-loop-7] INFO  [org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint] - OutputCommitCoordinator stopped!
+2019-09-04 18:14:12,404 [Thread-1] INFO  [org.apache.spark.SparkContext] - Successfully stopped SparkContext
+2019-09-04 18:14:12,405 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Shutdown hook called
+2019-09-04 18:14:12,406 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Deleting directory C:\Users\18246\AppData\Local\Temp\spark-f4e8e8ff-a87c-4fbc-949e-66da87cf8ee8
+2019-09-04 18:15:00,312 [main] INFO  [com.inforefiner.util.LogsUtils] - >> log4jPathD:\Code\count_records\src\main\resources\log4j.properties
+2019-09-04 18:15:00,615 [main] INFO  [org.apache.spark.SparkContext] - Running Spark version 2.1.1
+2019-09-04 18:15:01,206 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls to: Kechel
+2019-09-04 18:15:01,207 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls to: Kechel
+2019-09-04 18:15:01,208 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls groups to: 
+2019-09-04 18:15:01,209 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls groups to: 
+2019-09-04 18:15:01,210 [main] INFO  [org.apache.spark.SecurityManager] - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Kechel); groups with view permissions: Set(); users  with modify permissions: Set(Kechel); groups with modify permissions: Set()
+2019-09-04 18:15:02,382 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'sparkDriver' on port 64836.
+2019-09-04 18:15:02,398 [main] INFO  [org.apache.spark.SparkEnv] - Registering MapOutputTracker
+2019-09-04 18:15:02,414 [main] INFO  [org.apache.spark.SparkEnv] - Registering BlockManagerMaster
+2019-09-04 18:15:02,417 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-09-04 18:15:02,417 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - BlockManagerMasterEndpoint up
+2019-09-04 18:15:02,451 [main] INFO  [org.apache.spark.storage.DiskBlockManager] - Created local directory at C:\Users\18246\AppData\Local\Temp\blockmgr-32783779-a242-4fc8-85cc-7acff26961e2
+2019-09-04 18:15:02,466 [main] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore started with capacity 1988.7 MB
+2019-09-04 18:15:02,505 [main] INFO  [org.apache.spark.SparkEnv] - Registering OutputCommitCoordinator
+2019-09-04 18:15:02,573 [main] INFO  [org.spark_project.jetty.util.log] - Logging initialized @2801ms
+2019-09-04 18:15:02,670 [main] INFO  [org.spark_project.jetty.server.Server] - jetty-9.2.z-SNAPSHOT
+2019-09-04 18:15:02,686 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2d10e0b1{/jobs,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,686 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1c98290c{/jobs/json,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,686 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@172ca72b{/jobs/job,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,687 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5bda80bf{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,687 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@71e5f61d{/stages,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,687 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2ce86164{/stages/json,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,688 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/stage,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,688 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@51df223b{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,688 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@fd46303{/stages/pool,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,689 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60d8c0dc{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,689 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4204541c{/storage,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,690 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6a62689d{/storage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,690 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4602c2a9{/storage/rdd,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,690 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60fa3495{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,690 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@3e2822{/environment,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,691 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@79e18e38{/environment/json,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,691 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@29a60c27{/executors,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,691 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1849db1a{/executors/json,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,692 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@69c79f09{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,692 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1ca25c47{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,699 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5fcacc0{/static,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,700 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@533b266e{/,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,700 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6d1d4d7{/api,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,701 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@89ff02e{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,701 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6865c751{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:15:02,710 [main] INFO  [org.spark_project.jetty.server.ServerConnector] - Started Spark@72ccd81a{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:15:02,710 [main] INFO  [org.spark_project.jetty.server.Server] - Started @2940ms
+2019-09-04 18:15:02,711 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'SparkUI' on port 4040.
+2019-09-04 18:15:02,713 [main] INFO  [org.apache.spark.ui.SparkUI] - Bound SparkUI to 0.0.0.0, and started at http://192.168.191.1:4040
+2019-09-04 18:15:02,805 [main] INFO  [org.apache.spark.executor.Executor] - Starting executor ID driver on host localhost
+2019-09-04 18:15:02,832 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 64877.
+2019-09-04 18:15:02,832 [main] INFO  [org.apache.spark.network.netty.NettyBlockTransferService] - Server created on 192.168.191.1:64877
+2019-09-04 18:15:02,834 [main] INFO  [org.apache.spark.storage.BlockManager] - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-09-04 18:15:02,835 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registering BlockManager BlockManagerId(driver, 192.168.191.1, 64877, None)
+2019-09-04 18:15:02,837 [dispatcher-event-loop-3] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Registering block manager 192.168.191.1:64877 with 1988.7 MB RAM, BlockManagerId(driver, 192.168.191.1, 64877, None)
+2019-09-04 18:15:02,840 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registered BlockManager BlockManagerId(driver, 192.168.191.1, 64877, None)
+2019-09-04 18:15:02,840 [main] INFO  [org.apache.spark.storage.BlockManager] - Initialized BlockManager: BlockManagerId(driver, 192.168.191.1, 64877, None)
+2019-09-04 18:15:03,002 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@3c1e23ff{/metrics/json,null,AVAILABLE,@Spark}
+2019-09-04 18:15:03,028 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>初始化Spark完成<<<<<<<<<<<<<<<<<
+2019-09-04 18:15:03,031 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>>>>>>>>开始任务<<<<<<<<<<<<<<<<<<<<<<
+2019-09-04 18:15:03,031 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>采集任务<<<<<<<<<<<<<<<<<
+2019-09-04 18:15:07,616 [Thread-1] INFO  [org.apache.spark.SparkContext] - Invoking stop() from shutdown hook
+2019-09-04 18:15:07,620 [Thread-1] INFO  [org.spark_project.jetty.server.ServerConnector] - Stopped Spark@72ccd81a{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:15:07,623 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6865c751{/stages/stage/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,623 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@89ff02e{/jobs/job/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,623 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6d1d4d7{/api,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,623 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@533b266e{/,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,624 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5fcacc0{/static,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,624 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1ca25c47{/executors/threadDump/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,624 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@69c79f09{/executors/threadDump,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,624 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1849db1a{/executors/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,624 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@29a60c27{/executors,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,624 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@79e18e38{/environment/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,624 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@3e2822{/environment,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,625 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60fa3495{/storage/rdd/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,625 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4602c2a9{/storage/rdd,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,625 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6a62689d{/storage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,625 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4204541c{/storage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,625 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60d8c0dc{/stages/pool/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,625 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@fd46303{/stages/pool,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,625 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@51df223b{/stages/stage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,625 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/stage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,625 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2ce86164{/stages/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,626 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@71e5f61d{/stages,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,626 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5bda80bf{/jobs/job/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,626 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@172ca72b{/jobs/job,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,626 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1c98290c{/jobs/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,626 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2d10e0b1{/jobs,null,UNAVAILABLE,@Spark}
+2019-09-04 18:15:07,628 [Thread-1] INFO  [org.apache.spark.ui.SparkUI] - Stopped Spark web UI at http://192.168.191.1:4040
+2019-09-04 18:15:07,637 [dispatcher-event-loop-6] INFO  [org.apache.spark.MapOutputTrackerMasterEndpoint] - MapOutputTrackerMasterEndpoint stopped!
+2019-09-04 18:15:07,644 [Thread-1] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore cleared
+2019-09-04 18:15:07,644 [Thread-1] INFO  [org.apache.spark.storage.BlockManager] - BlockManager stopped
+2019-09-04 18:15:07,649 [Thread-1] INFO  [org.apache.spark.storage.BlockManagerMaster] - BlockManagerMaster stopped
+2019-09-04 18:15:07,652 [dispatcher-event-loop-2] INFO  [org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint] - OutputCommitCoordinator stopped!
+2019-09-04 18:15:07,654 [Thread-1] INFO  [org.apache.spark.SparkContext] - Successfully stopped SparkContext
+2019-09-04 18:15:07,655 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Shutdown hook called
+2019-09-04 18:15:07,655 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Deleting directory C:\Users\18246\AppData\Local\Temp\spark-58040da8-4a03-4376-a5eb-7d4c5eedf81b
+2019-09-04 18:16:57,519 [main] INFO  [com.inforefiner.util.LogsUtils] - >> log4jPathD:\Code\count_records\src\main\resources\log4j.properties
+2019-09-04 18:16:57,862 [main] INFO  [org.apache.spark.SparkContext] - Running Spark version 2.1.1
+2019-09-04 18:16:58,446 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls to: Kechel
+2019-09-04 18:16:58,446 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls to: Kechel
+2019-09-04 18:16:58,447 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls groups to: 
+2019-09-04 18:16:58,448 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls groups to: 
+2019-09-04 18:16:58,449 [main] INFO  [org.apache.spark.SecurityManager] - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Kechel); groups with view permissions: Set(); users  with modify permissions: Set(Kechel); groups with modify permissions: Set()
+2019-09-04 18:16:59,559 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'sparkDriver' on port 64997.
+2019-09-04 18:16:59,575 [main] INFO  [org.apache.spark.SparkEnv] - Registering MapOutputTracker
+2019-09-04 18:16:59,592 [main] INFO  [org.apache.spark.SparkEnv] - Registering BlockManagerMaster
+2019-09-04 18:16:59,596 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-09-04 18:16:59,596 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - BlockManagerMasterEndpoint up
+2019-09-04 18:16:59,634 [main] INFO  [org.apache.spark.storage.DiskBlockManager] - Created local directory at C:\Users\18246\AppData\Local\Temp\blockmgr-9cdd5837-42b5-4307-9fb5-3d9fb37bb9c1
+2019-09-04 18:16:59,649 [main] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore started with capacity 1988.7 MB
+2019-09-04 18:16:59,691 [main] INFO  [org.apache.spark.SparkEnv] - Registering OutputCommitCoordinator
+2019-09-04 18:16:59,752 [main] INFO  [org.spark_project.jetty.util.log] - Logging initialized @2736ms
+2019-09-04 18:16:59,839 [main] INFO  [org.spark_project.jetty.server.Server] - jetty-9.2.z-SNAPSHOT
+2019-09-04 18:16:59,853 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2d10e0b1{/jobs,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,853 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1c98290c{/jobs/json,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,853 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@172ca72b{/jobs/job,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,854 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5bda80bf{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,854 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@71e5f61d{/stages,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,854 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2ce86164{/stages/json,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,854 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/stage,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,854 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@51df223b{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,854 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@fd46303{/stages/pool,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,855 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60d8c0dc{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,855 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4204541c{/storage,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,855 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6a62689d{/storage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,855 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4602c2a9{/storage/rdd,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,856 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60fa3495{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,856 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@3e2822{/environment,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,856 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@79e18e38{/environment/json,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,856 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@29a60c27{/executors,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,856 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1849db1a{/executors/json,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,856 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@69c79f09{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,857 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1ca25c47{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,861 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5fcacc0{/static,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,861 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@533b266e{/,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,862 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6d1d4d7{/api,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,862 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@89ff02e{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,862 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6865c751{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:16:59,869 [main] INFO  [org.spark_project.jetty.server.ServerConnector] - Started Spark@72ccd81a{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:16:59,870 [main] INFO  [org.spark_project.jetty.server.Server] - Started @2854ms
+2019-09-04 18:16:59,870 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'SparkUI' on port 4040.
+2019-09-04 18:16:59,872 [main] INFO  [org.apache.spark.ui.SparkUI] - Bound SparkUI to 0.0.0.0, and started at http://192.168.191.1:4040
+2019-09-04 18:16:59,958 [main] INFO  [org.apache.spark.executor.Executor] - Starting executor ID driver on host localhost
+2019-09-04 18:16:59,986 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 65039.
+2019-09-04 18:16:59,987 [main] INFO  [org.apache.spark.network.netty.NettyBlockTransferService] - Server created on 192.168.191.1:65039
+2019-09-04 18:16:59,988 [main] INFO  [org.apache.spark.storage.BlockManager] - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-09-04 18:16:59,989 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registering BlockManager BlockManagerId(driver, 192.168.191.1, 65039, None)
+2019-09-04 18:16:59,991 [dispatcher-event-loop-2] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Registering block manager 192.168.191.1:65039 with 1988.7 MB RAM, BlockManagerId(driver, 192.168.191.1, 65039, None)
+2019-09-04 18:16:59,993 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registered BlockManager BlockManagerId(driver, 192.168.191.1, 65039, None)
+2019-09-04 18:16:59,994 [main] INFO  [org.apache.spark.storage.BlockManager] - Initialized BlockManager: BlockManagerId(driver, 192.168.191.1, 65039, None)
+2019-09-04 18:17:00,158 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@3c1e23ff{/metrics/json,null,AVAILABLE,@Spark}
+2019-09-04 18:17:00,185 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>初始化Spark完成<<<<<<<<<<<<<<<<<
+2019-09-04 18:17:00,188 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>>>>>>>>开始任务<<<<<<<<<<<<<<<<<<<<<<
+2019-09-04 18:17:00,188 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>采集任务<<<<<<<<<<<<<<<<<
+2019-09-04 18:17:04,951 [Thread-1] INFO  [org.apache.spark.SparkContext] - Invoking stop() from shutdown hook
+2019-09-04 18:17:04,954 [Thread-1] INFO  [org.spark_project.jetty.server.ServerConnector] - Stopped Spark@72ccd81a{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:17:04,956 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6865c751{/stages/stage/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,956 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@89ff02e{/jobs/job/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,956 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6d1d4d7{/api,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,956 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@533b266e{/,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,956 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5fcacc0{/static,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,957 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1ca25c47{/executors/threadDump/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,957 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@69c79f09{/executors/threadDump,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,957 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1849db1a{/executors/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,957 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@29a60c27{/executors,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,957 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@79e18e38{/environment/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,957 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@3e2822{/environment,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,957 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60fa3495{/storage/rdd/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,957 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4602c2a9{/storage/rdd,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,957 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6a62689d{/storage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,957 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4204541c{/storage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,958 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60d8c0dc{/stages/pool/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,958 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@fd46303{/stages/pool,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,958 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@51df223b{/stages/stage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,958 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/stage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,958 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2ce86164{/stages/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,958 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@71e5f61d{/stages,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,958 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5bda80bf{/jobs/job/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,960 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@172ca72b{/jobs/job,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,960 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1c98290c{/jobs/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,960 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2d10e0b1{/jobs,null,UNAVAILABLE,@Spark}
+2019-09-04 18:17:04,962 [Thread-1] INFO  [org.apache.spark.ui.SparkUI] - Stopped Spark web UI at http://192.168.191.1:4040
+2019-09-04 18:17:04,971 [dispatcher-event-loop-6] INFO  [org.apache.spark.MapOutputTrackerMasterEndpoint] - MapOutputTrackerMasterEndpoint stopped!
+2019-09-04 18:17:04,978 [Thread-1] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore cleared
+2019-09-04 18:17:04,978 [Thread-1] INFO  [org.apache.spark.storage.BlockManager] - BlockManager stopped
+2019-09-04 18:17:04,982 [Thread-1] INFO  [org.apache.spark.storage.BlockManagerMaster] - BlockManagerMaster stopped
+2019-09-04 18:17:04,985 [dispatcher-event-loop-3] INFO  [org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint] - OutputCommitCoordinator stopped!
+2019-09-04 18:17:04,987 [Thread-1] INFO  [org.apache.spark.SparkContext] - Successfully stopped SparkContext
+2019-09-04 18:17:04,988 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Shutdown hook called
+2019-09-04 18:17:04,989 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Deleting directory C:\Users\18246\AppData\Local\Temp\spark-8a299ddf-e677-4eae-a730-830717517221
+2019-09-04 18:21:41,723 [main] INFO  [com.inforefiner.util.LogsUtils] - >> log4jPathD:\Code\count_records\src\main\resources\log4j.properties
+2019-09-04 18:21:42,050 [main] INFO  [org.apache.spark.SparkContext] - Running Spark version 2.1.1
+2019-09-04 18:21:42,607 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls to: Kechel
+2019-09-04 18:21:42,608 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls to: Kechel
+2019-09-04 18:21:42,609 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls groups to: 
+2019-09-04 18:21:42,609 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls groups to: 
+2019-09-04 18:21:42,610 [main] INFO  [org.apache.spark.SecurityManager] - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Kechel); groups with view permissions: Set(); users  with modify permissions: Set(Kechel); groups with modify permissions: Set()
+2019-09-04 18:21:43,723 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'sparkDriver' on port 65203.
+2019-09-04 18:21:43,739 [main] INFO  [org.apache.spark.SparkEnv] - Registering MapOutputTracker
+2019-09-04 18:21:43,758 [main] INFO  [org.apache.spark.SparkEnv] - Registering BlockManagerMaster
+2019-09-04 18:21:43,760 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-09-04 18:21:43,761 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - BlockManagerMasterEndpoint up
+2019-09-04 18:21:43,796 [main] INFO  [org.apache.spark.storage.DiskBlockManager] - Created local directory at C:\Users\18246\AppData\Local\Temp\blockmgr-dcbbb8bd-83da-4962-a6ef-dc591df719ad
+2019-09-04 18:21:43,810 [main] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore started with capacity 1988.7 MB
+2019-09-04 18:21:43,855 [main] INFO  [org.apache.spark.SparkEnv] - Registering OutputCommitCoordinator
+2019-09-04 18:21:43,926 [main] INFO  [org.spark_project.jetty.util.log] - Logging initialized @2728ms
+2019-09-04 18:21:44,012 [main] INFO  [org.spark_project.jetty.server.Server] - jetty-9.2.z-SNAPSHOT
+2019-09-04 18:21:44,028 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2d10e0b1{/jobs,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,029 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1c98290c{/jobs/json,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,029 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@172ca72b{/jobs/job,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,029 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5bda80bf{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,029 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@71e5f61d{/stages,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,029 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2ce86164{/stages/json,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,030 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/stage,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,030 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@51df223b{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,030 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@fd46303{/stages/pool,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,030 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60d8c0dc{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,030 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4204541c{/storage,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,030 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6a62689d{/storage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,030 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4602c2a9{/storage/rdd,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,031 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60fa3495{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,031 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@3e2822{/environment,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,031 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@79e18e38{/environment/json,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,031 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@29a60c27{/executors,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,031 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1849db1a{/executors/json,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,031 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@69c79f09{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,031 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1ca25c47{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,037 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5fcacc0{/static,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,037 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@533b266e{/,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,038 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6d1d4d7{/api,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,038 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@89ff02e{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,038 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6865c751{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,045 [main] INFO  [org.spark_project.jetty.server.ServerConnector] - Started Spark@72ccd81a{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:21:44,045 [main] INFO  [org.spark_project.jetty.server.Server] - Started @2848ms
+2019-09-04 18:21:44,045 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'SparkUI' on port 4040.
+2019-09-04 18:21:44,048 [main] INFO  [org.apache.spark.ui.SparkUI] - Bound SparkUI to 0.0.0.0, and started at http://192.168.191.1:4040
+2019-09-04 18:21:44,124 [main] INFO  [org.apache.spark.executor.Executor] - Starting executor ID driver on host localhost
+2019-09-04 18:21:44,150 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 65244.
+2019-09-04 18:21:44,151 [main] INFO  [org.apache.spark.network.netty.NettyBlockTransferService] - Server created on 192.168.191.1:65244
+2019-09-04 18:21:44,152 [main] INFO  [org.apache.spark.storage.BlockManager] - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-09-04 18:21:44,153 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registering BlockManager BlockManagerId(driver, 192.168.191.1, 65244, None)
+2019-09-04 18:21:44,156 [dispatcher-event-loop-4] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Registering block manager 192.168.191.1:65244 with 1988.7 MB RAM, BlockManagerId(driver, 192.168.191.1, 65244, None)
+2019-09-04 18:21:44,157 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registered BlockManager BlockManagerId(driver, 192.168.191.1, 65244, None)
+2019-09-04 18:21:44,158 [main] INFO  [org.apache.spark.storage.BlockManager] - Initialized BlockManager: BlockManagerId(driver, 192.168.191.1, 65244, None)
+2019-09-04 18:21:44,305 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@3c1e23ff{/metrics/json,null,AVAILABLE,@Spark}
+2019-09-04 18:21:44,331 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>初始化Spark完成<<<<<<<<<<<<<<<<<
+2019-09-04 18:21:44,335 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>>>>>>>>开始任务<<<<<<<<<<<<<<<<<<<<<<
+2019-09-04 18:21:44,335 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>采集任务<<<<<<<<<<<<<<<<<
+2019-09-04 18:21:48,463 [Thread-1] INFO  [org.apache.spark.SparkContext] - Invoking stop() from shutdown hook
+2019-09-04 18:21:48,466 [Thread-1] INFO  [org.spark_project.jetty.server.ServerConnector] - Stopped Spark@72ccd81a{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:21:48,467 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6865c751{/stages/stage/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,467 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@89ff02e{/jobs/job/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,468 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6d1d4d7{/api,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,468 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@533b266e{/,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,468 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5fcacc0{/static,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,468 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1ca25c47{/executors/threadDump/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,468 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@69c79f09{/executors/threadDump,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,468 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1849db1a{/executors/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,468 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@29a60c27{/executors,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,468 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@79e18e38{/environment/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,469 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@3e2822{/environment,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,469 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60fa3495{/storage/rdd/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,469 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4602c2a9{/storage/rdd,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,469 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6a62689d{/storage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,469 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4204541c{/storage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,469 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60d8c0dc{/stages/pool/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,469 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@fd46303{/stages/pool,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,469 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@51df223b{/stages/stage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,469 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/stage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,469 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2ce86164{/stages/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,469 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@71e5f61d{/stages,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,470 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5bda80bf{/jobs/job/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,470 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@172ca72b{/jobs/job,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,470 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1c98290c{/jobs/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,470 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2d10e0b1{/jobs,null,UNAVAILABLE,@Spark}
+2019-09-04 18:21:48,471 [Thread-1] INFO  [org.apache.spark.ui.SparkUI] - Stopped Spark web UI at http://192.168.191.1:4040
+2019-09-04 18:21:48,480 [dispatcher-event-loop-6] INFO  [org.apache.spark.MapOutputTrackerMasterEndpoint] - MapOutputTrackerMasterEndpoint stopped!
+2019-09-04 18:21:48,486 [Thread-1] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore cleared
+2019-09-04 18:21:48,487 [Thread-1] INFO  [org.apache.spark.storage.BlockManager] - BlockManager stopped
+2019-09-04 18:21:48,492 [Thread-1] INFO  [org.apache.spark.storage.BlockManagerMaster] - BlockManagerMaster stopped
+2019-09-04 18:21:48,494 [dispatcher-event-loop-2] INFO  [org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint] - OutputCommitCoordinator stopped!
+2019-09-04 18:21:48,497 [Thread-1] INFO  [org.apache.spark.SparkContext] - Successfully stopped SparkContext
+2019-09-04 18:21:48,497 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Shutdown hook called
+2019-09-04 18:21:48,498 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Deleting directory C:\Users\18246\AppData\Local\Temp\spark-ece7f091-5943-4fb9-b772-e392def3e279
+2019-09-04 18:24:41,380 [main] INFO  [com.inforefiner.util.LogsUtils] - >> log4jPathD:\Code\count_records\src\main\resources\log4j.properties
+2019-09-04 18:24:41,712 [main] INFO  [org.apache.spark.SparkContext] - Running Spark version 2.1.1
+2019-09-04 18:24:42,242 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls to: Kechel
+2019-09-04 18:24:42,243 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls to: Kechel
+2019-09-04 18:24:42,244 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls groups to: 
+2019-09-04 18:24:42,245 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls groups to: 
+2019-09-04 18:24:42,246 [main] INFO  [org.apache.spark.SecurityManager] - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Kechel); groups with view permissions: Set(); users  with modify permissions: Set(Kechel); groups with modify permissions: Set()
+2019-09-04 18:24:43,443 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'sparkDriver' on port 65369.
+2019-09-04 18:24:43,469 [main] INFO  [org.apache.spark.SparkEnv] - Registering MapOutputTracker
+2019-09-04 18:24:43,492 [main] INFO  [org.apache.spark.SparkEnv] - Registering BlockManagerMaster
+2019-09-04 18:24:43,497 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-09-04 18:24:43,498 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - BlockManagerMasterEndpoint up
+2019-09-04 18:24:43,537 [main] INFO  [org.apache.spark.storage.DiskBlockManager] - Created local directory at C:\Users\18246\AppData\Local\Temp\blockmgr-e6199923-ed31-4ad6-8016-6ec13ea1cf41
+2019-09-04 18:24:43,554 [main] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore started with capacity 1988.7 MB
+2019-09-04 18:24:43,606 [main] INFO  [org.apache.spark.SparkEnv] - Registering OutputCommitCoordinator
+2019-09-04 18:24:43,684 [main] INFO  [org.spark_project.jetty.util.log] - Logging initialized @2819ms
+2019-09-04 18:24:43,770 [main] INFO  [org.spark_project.jetty.server.Server] - jetty-9.2.z-SNAPSHOT
+2019-09-04 18:24:43,784 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2d10e0b1{/jobs,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,785 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1c98290c{/jobs/json,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,785 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@172ca72b{/jobs/job,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,785 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5bda80bf{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,785 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@71e5f61d{/stages,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,785 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2ce86164{/stages/json,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,785 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/stage,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,785 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@51df223b{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,786 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@fd46303{/stages/pool,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,786 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60d8c0dc{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,786 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4204541c{/storage,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,786 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6a62689d{/storage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,786 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4602c2a9{/storage/rdd,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,786 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60fa3495{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,786 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@3e2822{/environment,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,787 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@79e18e38{/environment/json,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,787 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@29a60c27{/executors,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,787 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1849db1a{/executors/json,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,787 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@69c79f09{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,788 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1ca25c47{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,793 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5fcacc0{/static,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,793 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@533b266e{/,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,794 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6d1d4d7{/api,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,794 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@89ff02e{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,795 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6865c751{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:24:43,801 [main] INFO  [org.spark_project.jetty.server.ServerConnector] - Started Spark@72ccd81a{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:24:43,801 [main] INFO  [org.spark_project.jetty.server.Server] - Started @2938ms
+2019-09-04 18:24:43,802 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'SparkUI' on port 4040.
+2019-09-04 18:24:43,804 [main] INFO  [org.apache.spark.ui.SparkUI] - Bound SparkUI to 0.0.0.0, and started at http://192.168.191.1:4040
+2019-09-04 18:24:43,882 [main] INFO  [org.apache.spark.executor.Executor] - Starting executor ID driver on host localhost
+2019-09-04 18:24:43,910 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 65410.
+2019-09-04 18:24:43,911 [main] INFO  [org.apache.spark.network.netty.NettyBlockTransferService] - Server created on 192.168.191.1:65410
+2019-09-04 18:24:43,913 [main] INFO  [org.apache.spark.storage.BlockManager] - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-09-04 18:24:43,915 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registering BlockManager BlockManagerId(driver, 192.168.191.1, 65410, None)
+2019-09-04 18:24:43,917 [dispatcher-event-loop-2] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Registering block manager 192.168.191.1:65410 with 1988.7 MB RAM, BlockManagerId(driver, 192.168.191.1, 65410, None)
+2019-09-04 18:24:43,919 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registered BlockManager BlockManagerId(driver, 192.168.191.1, 65410, None)
+2019-09-04 18:24:43,919 [main] INFO  [org.apache.spark.storage.BlockManager] - Initialized BlockManager: BlockManagerId(driver, 192.168.191.1, 65410, None)
+2019-09-04 18:24:44,085 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@3c1e23ff{/metrics/json,null,AVAILABLE,@Spark}
+2019-09-04 18:24:44,113 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>初始化Spark完成<<<<<<<<<<<<<<<<<
+2019-09-04 18:24:44,117 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>>>>>>>>开始任务<<<<<<<<<<<<<<<<<<<<<<
+2019-09-04 18:24:44,117 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>采集任务<<<<<<<<<<<<<<<<<
+2019-09-04 18:24:48,360 [Thread-1] INFO  [org.apache.spark.SparkContext] - Invoking stop() from shutdown hook
+2019-09-04 18:24:48,364 [Thread-1] INFO  [org.spark_project.jetty.server.ServerConnector] - Stopped Spark@72ccd81a{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:24:48,366 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6865c751{/stages/stage/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,366 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@89ff02e{/jobs/job/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,366 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6d1d4d7{/api,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,366 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@533b266e{/,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,366 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5fcacc0{/static,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,366 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1ca25c47{/executors/threadDump/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,366 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@69c79f09{/executors/threadDump,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,366 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1849db1a{/executors/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,366 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@29a60c27{/executors,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,366 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@79e18e38{/environment/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@3e2822{/environment,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60fa3495{/storage/rdd/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4602c2a9{/storage/rdd,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6a62689d{/storage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4204541c{/storage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60d8c0dc{/stages/pool/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@fd46303{/stages/pool,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@51df223b{/stages/stage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/stage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2ce86164{/stages/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@71e5f61d{/stages,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,367 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5bda80bf{/jobs/job/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,368 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@172ca72b{/jobs/job,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,368 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1c98290c{/jobs/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,368 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2d10e0b1{/jobs,null,UNAVAILABLE,@Spark}
+2019-09-04 18:24:48,369 [Thread-1] INFO  [org.apache.spark.ui.SparkUI] - Stopped Spark web UI at http://192.168.191.1:4040
+2019-09-04 18:24:48,378 [dispatcher-event-loop-6] INFO  [org.apache.spark.MapOutputTrackerMasterEndpoint] - MapOutputTrackerMasterEndpoint stopped!
+2019-09-04 18:24:48,384 [Thread-1] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore cleared
+2019-09-04 18:24:48,385 [Thread-1] INFO  [org.apache.spark.storage.BlockManager] - BlockManager stopped
+2019-09-04 18:24:48,390 [Thread-1] INFO  [org.apache.spark.storage.BlockManagerMaster] - BlockManagerMaster stopped
+2019-09-04 18:24:48,394 [dispatcher-event-loop-4] INFO  [org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint] - OutputCommitCoordinator stopped!
+2019-09-04 18:24:48,396 [Thread-1] INFO  [org.apache.spark.SparkContext] - Successfully stopped SparkContext
+2019-09-04 18:24:48,396 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Shutdown hook called
+2019-09-04 18:24:48,397 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Deleting directory C:\Users\18246\AppData\Local\Temp\spark-11cb4724-8479-4546-9e51-923ae23e3af7
+2019-09-04 18:25:16,685 [main] INFO  [com.inforefiner.util.LogsUtils] - >> log4jPathD:\Code\count_records\src\main\resources\log4j.properties
+2019-09-04 18:25:17,046 [main] INFO  [org.apache.spark.SparkContext] - Running Spark version 2.1.1
+2019-09-04 18:25:17,598 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls to: Kechel
+2019-09-04 18:25:17,599 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls to: Kechel
+2019-09-04 18:25:17,600 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls groups to: 
+2019-09-04 18:25:17,600 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls groups to: 
+2019-09-04 18:25:17,601 [main] INFO  [org.apache.spark.SecurityManager] - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Kechel); groups with view permissions: Set(); users  with modify permissions: Set(Kechel); groups with modify permissions: Set()
+2019-09-04 18:25:18,688 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'sparkDriver' on port 65462.
+2019-09-04 18:25:18,703 [main] INFO  [org.apache.spark.SparkEnv] - Registering MapOutputTracker
+2019-09-04 18:25:18,720 [main] INFO  [org.apache.spark.SparkEnv] - Registering BlockManagerMaster
+2019-09-04 18:25:18,723 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-09-04 18:25:18,723 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - BlockManagerMasterEndpoint up
+2019-09-04 18:25:18,756 [main] INFO  [org.apache.spark.storage.DiskBlockManager] - Created local directory at C:\Users\18246\AppData\Local\Temp\blockmgr-29c17db4-d9bd-44dd-9324-e285c6040fc3
+2019-09-04 18:25:18,770 [main] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore started with capacity 1988.7 MB
+2019-09-04 18:25:18,812 [main] INFO  [org.apache.spark.SparkEnv] - Registering OutputCommitCoordinator
+2019-09-04 18:25:18,881 [main] INFO  [org.spark_project.jetty.util.log] - Logging initialized @2683ms
+2019-09-04 18:25:18,964 [main] INFO  [org.spark_project.jetty.server.Server] - jetty-9.2.z-SNAPSHOT
+2019-09-04 18:25:18,979 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2d10e0b1{/jobs,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,979 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1c98290c{/jobs/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,979 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@172ca72b{/jobs/job,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,979 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5bda80bf{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,979 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@71e5f61d{/stages,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,980 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2ce86164{/stages/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,980 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/stage,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,980 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@51df223b{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,980 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@fd46303{/stages/pool,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,980 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60d8c0dc{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,981 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4204541c{/storage,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,981 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6a62689d{/storage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,981 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4602c2a9{/storage/rdd,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,981 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60fa3495{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,981 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@3e2822{/environment,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,981 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@79e18e38{/environment/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,982 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@29a60c27{/executors,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,982 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1849db1a{/executors/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,982 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@69c79f09{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,982 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1ca25c47{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,987 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5fcacc0{/static,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,987 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@533b266e{/,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,988 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6d1d4d7{/api,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,988 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@89ff02e{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,988 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6865c751{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:25:18,996 [main] INFO  [org.spark_project.jetty.server.ServerConnector] - Started Spark@72ccd81a{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:25:18,996 [main] INFO  [org.spark_project.jetty.server.Server] - Started @2799ms
+2019-09-04 18:25:18,996 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'SparkUI' on port 4040.
+2019-09-04 18:25:18,998 [main] INFO  [org.apache.spark.ui.SparkUI] - Bound SparkUI to 0.0.0.0, and started at http://192.168.191.1:4040
+2019-09-04 18:25:19,082 [main] INFO  [org.apache.spark.executor.Executor] - Starting executor ID driver on host localhost
+2019-09-04 18:25:19,116 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 65503.
+2019-09-04 18:25:19,117 [main] INFO  [org.apache.spark.network.netty.NettyBlockTransferService] - Server created on 192.168.191.1:65503
+2019-09-04 18:25:19,118 [main] INFO  [org.apache.spark.storage.BlockManager] - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-09-04 18:25:19,120 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registering BlockManager BlockManagerId(driver, 192.168.191.1, 65503, None)
+2019-09-04 18:25:19,121 [dispatcher-event-loop-2] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Registering block manager 192.168.191.1:65503 with 1988.7 MB RAM, BlockManagerId(driver, 192.168.191.1, 65503, None)
+2019-09-04 18:25:19,123 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registered BlockManager BlockManagerId(driver, 192.168.191.1, 65503, None)
+2019-09-04 18:25:19,124 [main] INFO  [org.apache.spark.storage.BlockManager] - Initialized BlockManager: BlockManagerId(driver, 192.168.191.1, 65503, None)
+2019-09-04 18:25:19,308 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@3c1e23ff{/metrics/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:19,337 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>初始化Spark完成<<<<<<<<<<<<<<<<<
+2019-09-04 18:25:19,341 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>>>>>>>>开始任务<<<<<<<<<<<<<<<<<<<<<<
+2019-09-04 18:25:19,342 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>采集任务<<<<<<<<<<<<<<<<<
+2019-09-04 18:25:23,451 [Thread-1] INFO  [org.apache.spark.SparkContext] - Invoking stop() from shutdown hook
+2019-09-04 18:25:23,455 [Thread-1] INFO  [org.spark_project.jetty.server.ServerConnector] - Stopped Spark@72ccd81a{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:25:23,458 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6865c751{/stages/stage/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,458 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@89ff02e{/jobs/job/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,458 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6d1d4d7{/api,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,458 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@533b266e{/,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,458 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5fcacc0{/static,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,459 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1ca25c47{/executors/threadDump/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,459 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@69c79f09{/executors/threadDump,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,459 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1849db1a{/executors/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,459 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@29a60c27{/executors,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,459 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@79e18e38{/environment/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,459 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@3e2822{/environment,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,459 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60fa3495{/storage/rdd/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,459 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4602c2a9{/storage/rdd,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,459 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6a62689d{/storage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,460 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4204541c{/storage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,460 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60d8c0dc{/stages/pool/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,460 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@fd46303{/stages/pool,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,460 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@51df223b{/stages/stage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,460 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/stage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,460 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2ce86164{/stages/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,460 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@71e5f61d{/stages,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,460 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5bda80bf{/jobs/job/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,460 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@172ca72b{/jobs/job,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,464 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1c98290c{/jobs/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,464 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2d10e0b1{/jobs,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:23,465 [Thread-1] INFO  [org.apache.spark.ui.SparkUI] - Stopped Spark web UI at http://192.168.191.1:4040
+2019-09-04 18:25:23,473 [dispatcher-event-loop-6] INFO  [org.apache.spark.MapOutputTrackerMasterEndpoint] - MapOutputTrackerMasterEndpoint stopped!
+2019-09-04 18:25:23,480 [Thread-1] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore cleared
+2019-09-04 18:25:23,480 [Thread-1] INFO  [org.apache.spark.storage.BlockManager] - BlockManager stopped
+2019-09-04 18:25:23,484 [Thread-1] INFO  [org.apache.spark.storage.BlockManagerMaster] - BlockManagerMaster stopped
+2019-09-04 18:25:23,487 [dispatcher-event-loop-4] INFO  [org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint] - OutputCommitCoordinator stopped!
+2019-09-04 18:25:23,488 [Thread-1] INFO  [org.apache.spark.SparkContext] - Successfully stopped SparkContext
+2019-09-04 18:25:23,489 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Shutdown hook called
+2019-09-04 18:25:23,490 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Deleting directory C:\Users\18246\AppData\Local\Temp\spark-292a17ba-b20e-457a-ab7e-5e53862320e2
+2019-09-04 18:25:46,352 [main] INFO  [com.inforefiner.util.LogsUtils] - >> log4jPathD:\Code\count_records\src\main\resources\log4j.properties
+2019-09-04 18:25:46,696 [main] INFO  [org.apache.spark.SparkContext] - Running Spark version 2.1.1
+2019-09-04 18:25:47,235 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls to: Kechel
+2019-09-04 18:25:47,236 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls to: Kechel
+2019-09-04 18:25:47,243 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls groups to: 
+2019-09-04 18:25:47,244 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls groups to: 
+2019-09-04 18:25:47,244 [main] INFO  [org.apache.spark.SecurityManager] - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Kechel); groups with view permissions: Set(); users  with modify permissions: Set(Kechel); groups with modify permissions: Set()
+2019-09-04 18:25:48,405 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'sparkDriver' on port 49176.
+2019-09-04 18:25:48,421 [main] INFO  [org.apache.spark.SparkEnv] - Registering MapOutputTracker
+2019-09-04 18:25:48,437 [main] INFO  [org.apache.spark.SparkEnv] - Registering BlockManagerMaster
+2019-09-04 18:25:48,440 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-09-04 18:25:48,440 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - BlockManagerMasterEndpoint up
+2019-09-04 18:25:48,473 [main] INFO  [org.apache.spark.storage.DiskBlockManager] - Created local directory at C:\Users\18246\AppData\Local\Temp\blockmgr-6464344c-b8f5-4536-9cec-060831478afe
+2019-09-04 18:25:48,488 [main] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore started with capacity 1988.7 MB
+2019-09-04 18:25:48,533 [main] INFO  [org.apache.spark.SparkEnv] - Registering OutputCommitCoordinator
+2019-09-04 18:25:48,601 [main] INFO  [org.spark_project.jetty.util.log] - Logging initialized @2760ms
+2019-09-04 18:25:48,686 [main] INFO  [org.spark_project.jetty.server.Server] - jetty-9.2.z-SNAPSHOT
+2019-09-04 18:25:48,700 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@53ab0286{/jobs,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,701 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@63c5efee{/jobs/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,701 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2d10e0b1{/jobs/job,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,701 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1c98290c{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,701 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@172ca72b{/stages,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,701 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5bda80bf{/stages/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,701 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@71e5f61d{/stages/stage,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,702 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2ce86164{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,702 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/pool,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,702 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@51df223b{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,702 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@fd46303{/storage,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,702 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60d8c0dc{/storage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,703 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4204541c{/storage/rdd,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,703 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6a62689d{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,703 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4602c2a9{/environment,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,703 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60fa3495{/environment/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,703 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@3e2822{/executors,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,704 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@79e18e38{/executors/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,704 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@29a60c27{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,704 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1849db1a{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,708 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@69c79f09{/static,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,709 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1ca25c47{/,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,710 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5fcacc0{/api,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,710 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@533b266e{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,711 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6d1d4d7{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:25:48,718 [main] INFO  [org.spark_project.jetty.server.ServerConnector] - Started Spark@2f94c4db{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:25:48,718 [main] INFO  [org.spark_project.jetty.server.Server] - Started @2878ms
+2019-09-04 18:25:48,719 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'SparkUI' on port 4040.
+2019-09-04 18:25:48,721 [main] INFO  [org.apache.spark.ui.SparkUI] - Bound SparkUI to 0.0.0.0, and started at http://192.168.191.1:4040
+2019-09-04 18:25:48,804 [main] INFO  [org.apache.spark.executor.Executor] - Starting executor ID driver on host localhost
+2019-09-04 18:25:48,832 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 49217.
+2019-09-04 18:25:48,833 [main] INFO  [org.apache.spark.network.netty.NettyBlockTransferService] - Server created on 192.168.191.1:49217
+2019-09-04 18:25:48,834 [main] INFO  [org.apache.spark.storage.BlockManager] - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-09-04 18:25:48,836 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registering BlockManager BlockManagerId(driver, 192.168.191.1, 49217, None)
+2019-09-04 18:25:48,838 [dispatcher-event-loop-1] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Registering block manager 192.168.191.1:49217 with 1988.7 MB RAM, BlockManagerId(driver, 192.168.191.1, 49217, None)
+2019-09-04 18:25:48,840 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registered BlockManager BlockManagerId(driver, 192.168.191.1, 49217, None)
+2019-09-04 18:25:48,840 [main] INFO  [org.apache.spark.storage.BlockManager] - Initialized BlockManager: BlockManagerId(driver, 192.168.191.1, 49217, None)
+2019-09-04 18:25:49,004 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@64711bf2{/metrics/json,null,AVAILABLE,@Spark}
+2019-09-04 18:25:49,029 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>初始化Spark完成<<<<<<<<<<<<<<<<<
+2019-09-04 18:25:49,032 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>>>>>>>>开始任务<<<<<<<<<<<<<<<<<<<<<<
+2019-09-04 18:25:49,032 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>采集任务<<<<<<<<<<<<<<<<<
+2019-09-04 18:25:53,047 [Thread-1] INFO  [org.apache.spark.SparkContext] - Invoking stop() from shutdown hook
+2019-09-04 18:25:53,051 [Thread-1] INFO  [org.spark_project.jetty.server.ServerConnector] - Stopped Spark@2f94c4db{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:25:53,053 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6d1d4d7{/stages/stage/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,053 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@533b266e{/jobs/job/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,053 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5fcacc0{/api,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,053 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1ca25c47{/,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,053 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@69c79f09{/static,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,053 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1849db1a{/executors/threadDump/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,053 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@29a60c27{/executors/threadDump,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,054 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@79e18e38{/executors/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,054 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@3e2822{/executors,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,054 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60fa3495{/environment/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,054 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4602c2a9{/environment,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,054 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6a62689d{/storage/rdd/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,054 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4204541c{/storage/rdd,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,054 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60d8c0dc{/storage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,054 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@fd46303{/storage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,054 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@51df223b{/stages/pool/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,055 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/pool,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,055 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2ce86164{/stages/stage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,055 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@71e5f61d{/stages/stage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,055 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5bda80bf{/stages/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,055 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@172ca72b{/stages,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,055 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1c98290c{/jobs/job/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,055 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2d10e0b1{/jobs/job,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,059 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@63c5efee{/jobs/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,059 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@53ab0286{/jobs,null,UNAVAILABLE,@Spark}
+2019-09-04 18:25:53,061 [Thread-1] INFO  [org.apache.spark.ui.SparkUI] - Stopped Spark web UI at http://192.168.191.1:4040
+2019-09-04 18:25:53,068 [dispatcher-event-loop-6] INFO  [org.apache.spark.MapOutputTrackerMasterEndpoint] - MapOutputTrackerMasterEndpoint stopped!
+2019-09-04 18:25:53,075 [Thread-1] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore cleared
+2019-09-04 18:25:53,075 [Thread-1] INFO  [org.apache.spark.storage.BlockManager] - BlockManager stopped
+2019-09-04 18:25:53,080 [Thread-1] INFO  [org.apache.spark.storage.BlockManagerMaster] - BlockManagerMaster stopped
+2019-09-04 18:25:53,082 [dispatcher-event-loop-3] INFO  [org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint] - OutputCommitCoordinator stopped!
+2019-09-04 18:25:53,084 [Thread-1] INFO  [org.apache.spark.SparkContext] - Successfully stopped SparkContext
+2019-09-04 18:25:53,085 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Shutdown hook called
+2019-09-04 18:25:53,085 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Deleting directory C:\Users\18246\AppData\Local\Temp\spark-eff7ae83-4791-4ba6-b108-4017f129c3e5
+2019-09-04 18:26:38,283 [main] INFO  [com.inforefiner.util.LogsUtils] - >> log4jPathD:\Code\count_records\src\main\resources\log4j.properties
+2019-09-04 18:26:38,611 [main] INFO  [org.apache.spark.SparkContext] - Running Spark version 2.1.1
+2019-09-04 18:26:39,127 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls to: Kechel
+2019-09-04 18:26:39,128 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls to: Kechel
+2019-09-04 18:26:39,129 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls groups to: 
+2019-09-04 18:26:39,129 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls groups to: 
+2019-09-04 18:26:39,130 [main] INFO  [org.apache.spark.SecurityManager] - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Kechel); groups with view permissions: Set(); users  with modify permissions: Set(Kechel); groups with modify permissions: Set()
+2019-09-04 18:26:40,316 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'sparkDriver' on port 49269.
+2019-09-04 18:26:40,332 [main] INFO  [org.apache.spark.SparkEnv] - Registering MapOutputTracker
+2019-09-04 18:26:40,350 [main] INFO  [org.apache.spark.SparkEnv] - Registering BlockManagerMaster
+2019-09-04 18:26:40,354 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-09-04 18:26:40,354 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - BlockManagerMasterEndpoint up
+2019-09-04 18:26:40,389 [main] INFO  [org.apache.spark.storage.DiskBlockManager] - Created local directory at C:\Users\18246\AppData\Local\Temp\blockmgr-ddb71b3e-5188-4527-9503-982b0e416cbc
+2019-09-04 18:26:40,402 [main] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore started with capacity 1988.7 MB
+2019-09-04 18:26:40,442 [main] INFO  [org.apache.spark.SparkEnv] - Registering OutputCommitCoordinator
+2019-09-04 18:26:40,509 [main] INFO  [org.spark_project.jetty.util.log] - Logging initialized @2760ms
+2019-09-04 18:26:40,597 [main] INFO  [org.spark_project.jetty.server.Server] - jetty-9.2.z-SNAPSHOT
+2019-09-04 18:26:40,610 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2d10e0b1{/jobs,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,611 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1c98290c{/jobs/json,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,611 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@172ca72b{/jobs/job,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,611 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5bda80bf{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,611 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@71e5f61d{/stages,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,611 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2ce86164{/stages/json,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,611 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/stage,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,612 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@51df223b{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,612 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@fd46303{/stages/pool,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,612 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60d8c0dc{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,612 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4204541c{/storage,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,612 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6a62689d{/storage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,612 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4602c2a9{/storage/rdd,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,612 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60fa3495{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,613 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@3e2822{/environment,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,613 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@79e18e38{/environment/json,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,613 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@29a60c27{/executors,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,613 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1849db1a{/executors/json,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,613 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@69c79f09{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,614 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1ca25c47{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,619 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5fcacc0{/static,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,619 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@533b266e{/,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,619 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6d1d4d7{/api,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,619 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@89ff02e{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,620 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6865c751{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,626 [main] INFO  [org.spark_project.jetty.server.ServerConnector] - Started Spark@72ccd81a{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:26:40,627 [main] INFO  [org.spark_project.jetty.server.Server] - Started @2878ms
+2019-09-04 18:26:40,627 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'SparkUI' on port 4040.
+2019-09-04 18:26:40,629 [main] INFO  [org.apache.spark.ui.SparkUI] - Bound SparkUI to 0.0.0.0, and started at http://192.168.191.1:4040
+2019-09-04 18:26:40,707 [main] INFO  [org.apache.spark.executor.Executor] - Starting executor ID driver on host localhost
+2019-09-04 18:26:40,742 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 49313.
+2019-09-04 18:26:40,743 [main] INFO  [org.apache.spark.network.netty.NettyBlockTransferService] - Server created on 192.168.191.1:49313
+2019-09-04 18:26:40,744 [main] INFO  [org.apache.spark.storage.BlockManager] - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-09-04 18:26:40,745 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registering BlockManager BlockManagerId(driver, 192.168.191.1, 49313, None)
+2019-09-04 18:26:40,748 [dispatcher-event-loop-2] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Registering block manager 192.168.191.1:49313 with 1988.7 MB RAM, BlockManagerId(driver, 192.168.191.1, 49313, None)
+2019-09-04 18:26:40,750 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registered BlockManager BlockManagerId(driver, 192.168.191.1, 49313, None)
+2019-09-04 18:26:40,750 [main] INFO  [org.apache.spark.storage.BlockManager] - Initialized BlockManager: BlockManagerId(driver, 192.168.191.1, 49313, None)
+2019-09-04 18:26:40,911 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@3c1e23ff{/metrics/json,null,AVAILABLE,@Spark}
+2019-09-04 18:26:40,938 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>初始化Spark完成<<<<<<<<<<<<<<<<<
+2019-09-04 18:26:40,942 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>>>>>>>>开始任务<<<<<<<<<<<<<<<<<<<<<<
+2019-09-04 18:26:40,942 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>采集任务<<<<<<<<<<<<<<<<<
+2019-09-04 18:26:45,163 [Thread-1] INFO  [org.apache.spark.SparkContext] - Invoking stop() from shutdown hook
+2019-09-04 18:26:45,167 [Thread-1] INFO  [org.spark_project.jetty.server.ServerConnector] - Stopped Spark@72ccd81a{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:26:45,169 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6865c751{/stages/stage/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,169 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@89ff02e{/jobs/job/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,169 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6d1d4d7{/api,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,169 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@533b266e{/,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,169 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5fcacc0{/static,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,170 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1ca25c47{/executors/threadDump/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,170 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@69c79f09{/executors/threadDump,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,170 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1849db1a{/executors/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,170 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@29a60c27{/executors,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,170 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@79e18e38{/environment/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,170 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@3e2822{/environment,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,170 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60fa3495{/storage/rdd/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,170 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4602c2a9{/storage/rdd,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,170 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6a62689d{/storage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,170 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4204541c{/storage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,170 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60d8c0dc{/stages/pool/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,170 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@fd46303{/stages/pool,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,171 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@51df223b{/stages/stage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,171 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/stage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,171 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2ce86164{/stages/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,171 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@71e5f61d{/stages,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,171 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5bda80bf{/jobs/job/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,171 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@172ca72b{/jobs/job,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,175 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1c98290c{/jobs/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,175 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2d10e0b1{/jobs,null,UNAVAILABLE,@Spark}
+2019-09-04 18:26:45,177 [Thread-1] INFO  [org.apache.spark.ui.SparkUI] - Stopped Spark web UI at http://192.168.191.1:4040
+2019-09-04 18:26:45,185 [dispatcher-event-loop-5] INFO  [org.apache.spark.MapOutputTrackerMasterEndpoint] - MapOutputTrackerMasterEndpoint stopped!
+2019-09-04 18:26:45,191 [Thread-1] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore cleared
+2019-09-04 18:26:45,192 [Thread-1] INFO  [org.apache.spark.storage.BlockManager] - BlockManager stopped
+2019-09-04 18:26:45,196 [Thread-1] INFO  [org.apache.spark.storage.BlockManagerMaster] - BlockManagerMaster stopped
+2019-09-04 18:26:45,199 [dispatcher-event-loop-3] INFO  [org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint] - OutputCommitCoordinator stopped!
+2019-09-04 18:26:45,201 [Thread-1] INFO  [org.apache.spark.SparkContext] - Successfully stopped SparkContext
+2019-09-04 18:26:45,202 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Shutdown hook called
+2019-09-04 18:26:45,203 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Deleting directory C:\Users\18246\AppData\Local\Temp\spark-bf686dfc-ac72-4786-9e9f-4426458e467f
+2019-09-04 18:27:25,509 [main] INFO  [com.inforefiner.util.LogsUtils] - >> log4jPathD:\Code\count_records\src\main\resources\log4j.properties
+2019-09-04 18:27:25,833 [main] INFO  [org.apache.spark.SparkContext] - Running Spark version 2.1.1
+2019-09-04 18:27:26,366 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls to: Kechel
+2019-09-04 18:27:26,367 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls to: Kechel
+2019-09-04 18:27:26,368 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls groups to: 
+2019-09-04 18:27:26,369 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls groups to: 
+2019-09-04 18:27:26,369 [main] INFO  [org.apache.spark.SecurityManager] - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Kechel); groups with view permissions: Set(); users  with modify permissions: Set(Kechel); groups with modify permissions: Set()
+2019-09-04 18:27:27,477 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'sparkDriver' on port 49384.
+2019-09-04 18:27:27,492 [main] INFO  [org.apache.spark.SparkEnv] - Registering MapOutputTracker
+2019-09-04 18:27:27,508 [main] INFO  [org.apache.spark.SparkEnv] - Registering BlockManagerMaster
+2019-09-04 18:27:27,511 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-09-04 18:27:27,511 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - BlockManagerMasterEndpoint up
+2019-09-04 18:27:27,546 [main] INFO  [org.apache.spark.storage.DiskBlockManager] - Created local directory at C:\Users\18246\AppData\Local\Temp\blockmgr-947e0e8e-a60b-4d92-ad8e-7192cd1ac8f7
+2019-09-04 18:27:27,561 [main] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore started with capacity 1988.7 MB
+2019-09-04 18:27:27,608 [main] INFO  [org.apache.spark.SparkEnv] - Registering OutputCommitCoordinator
+2019-09-04 18:27:27,675 [main] INFO  [org.spark_project.jetty.util.log] - Logging initialized @2675ms
+2019-09-04 18:27:27,759 [main] INFO  [org.spark_project.jetty.server.Server] - jetty-9.2.z-SNAPSHOT
+2019-09-04 18:27:27,774 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@53ab0286{/jobs,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,774 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@63c5efee{/jobs/json,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,774 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2d10e0b1{/jobs/job,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,774 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1c98290c{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,774 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@172ca72b{/stages,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,775 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5bda80bf{/stages/json,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,775 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@71e5f61d{/stages/stage,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,775 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2ce86164{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,775 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/pool,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,775 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@51df223b{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,775 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@fd46303{/storage,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,775 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60d8c0dc{/storage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,776 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4204541c{/storage/rdd,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,776 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6a62689d{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,776 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4602c2a9{/environment,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,776 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60fa3495{/environment/json,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,776 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@3e2822{/executors,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,776 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@79e18e38{/executors/json,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,777 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@29a60c27{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,777 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1849db1a{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,782 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@69c79f09{/static,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,782 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1ca25c47{/,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,783 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5fcacc0{/api,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,783 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@533b266e{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,783 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6d1d4d7{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:27:27,789 [main] INFO  [org.spark_project.jetty.server.ServerConnector] - Started Spark@2f94c4db{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:27:27,790 [main] INFO  [org.spark_project.jetty.server.Server] - Started @2792ms
+2019-09-04 18:27:27,790 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'SparkUI' on port 4040.
+2019-09-04 18:27:27,793 [main] INFO  [org.apache.spark.ui.SparkUI] - Bound SparkUI to 0.0.0.0, and started at http://192.168.191.1:4040
+2019-09-04 18:27:27,871 [main] INFO  [org.apache.spark.executor.Executor] - Starting executor ID driver on host localhost
+2019-09-04 18:27:27,897 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 49425.
+2019-09-04 18:27:27,898 [main] INFO  [org.apache.spark.network.netty.NettyBlockTransferService] - Server created on 192.168.191.1:49425
+2019-09-04 18:27:27,899 [main] INFO  [org.apache.spark.storage.BlockManager] - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-09-04 18:27:27,900 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registering BlockManager BlockManagerId(driver, 192.168.191.1, 49425, None)
+2019-09-04 18:27:27,902 [dispatcher-event-loop-2] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Registering block manager 192.168.191.1:49425 with 1988.7 MB RAM, BlockManagerId(driver, 192.168.191.1, 49425, None)
+2019-09-04 18:27:27,905 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registered BlockManager BlockManagerId(driver, 192.168.191.1, 49425, None)
+2019-09-04 18:27:27,906 [main] INFO  [org.apache.spark.storage.BlockManager] - Initialized BlockManager: BlockManagerId(driver, 192.168.191.1, 49425, None)
+2019-09-04 18:27:28,070 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@64711bf2{/metrics/json,null,AVAILABLE,@Spark}
+2019-09-04 18:27:28,096 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>初始化Spark完成<<<<<<<<<<<<<<<<<
+2019-09-04 18:27:28,100 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>>>>>>>>开始任务<<<<<<<<<<<<<<<<<<<<<<
+2019-09-04 18:27:28,100 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>采集任务<<<<<<<<<<<<<<<<<
+2019-09-04 18:27:34,183 [Thread-1] INFO  [org.apache.spark.SparkContext] - Invoking stop() from shutdown hook
+2019-09-04 18:27:34,187 [Thread-1] INFO  [org.spark_project.jetty.server.ServerConnector] - Stopped Spark@2f94c4db{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:27:34,189 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6d1d4d7{/stages/stage/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,189 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@533b266e{/jobs/job/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,189 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5fcacc0{/api,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,189 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1ca25c47{/,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,189 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@69c79f09{/static,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,189 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1849db1a{/executors/threadDump/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,189 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@29a60c27{/executors/threadDump,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,190 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@79e18e38{/executors/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,190 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@3e2822{/executors,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,190 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60fa3495{/environment/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,190 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4602c2a9{/environment,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,190 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6a62689d{/storage/rdd/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,190 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4204541c{/storage/rdd,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,190 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60d8c0dc{/storage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,191 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@fd46303{/storage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,191 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@51df223b{/stages/pool/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,191 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/pool,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,191 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2ce86164{/stages/stage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,191 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@71e5f61d{/stages/stage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,191 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5bda80bf{/stages/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,191 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@172ca72b{/stages,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,191 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1c98290c{/jobs/job/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,192 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2d10e0b1{/jobs/job,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,192 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@63c5efee{/jobs/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,192 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@53ab0286{/jobs,null,UNAVAILABLE,@Spark}
+2019-09-04 18:27:34,193 [Thread-1] INFO  [org.apache.spark.ui.SparkUI] - Stopped Spark web UI at http://192.168.191.1:4040
+2019-09-04 18:27:34,201 [dispatcher-event-loop-6] INFO  [org.apache.spark.MapOutputTrackerMasterEndpoint] - MapOutputTrackerMasterEndpoint stopped!
+2019-09-04 18:27:34,208 [Thread-1] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore cleared
+2019-09-04 18:27:34,208 [Thread-1] INFO  [org.apache.spark.storage.BlockManager] - BlockManager stopped
+2019-09-04 18:27:34,212 [Thread-1] INFO  [org.apache.spark.storage.BlockManagerMaster] - BlockManagerMaster stopped
+2019-09-04 18:27:34,215 [dispatcher-event-loop-3] INFO  [org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint] - OutputCommitCoordinator stopped!
+2019-09-04 18:27:34,218 [Thread-1] INFO  [org.apache.spark.SparkContext] - Successfully stopped SparkContext
+2019-09-04 18:27:34,225 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Shutdown hook called
+2019-09-04 18:27:34,226 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Deleting directory C:\Users\18246\AppData\Local\Temp\spark-494b183b-d1a7-4b19-bc8e-850ca2f091d7
+2019-09-04 18:29:36,261 [main] INFO  [com.inforefiner.util.LogsUtils] - >> log4jPathD:\Code\count_records\src\main\resources\log4j.properties
+2019-09-04 18:29:36,582 [main] INFO  [org.apache.spark.SparkContext] - Running Spark version 2.1.1
+2019-09-04 18:29:37,094 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls to: Kechel
+2019-09-04 18:29:37,095 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls to: Kechel
+2019-09-04 18:29:37,096 [main] INFO  [org.apache.spark.SecurityManager] - Changing view acls groups to: 
+2019-09-04 18:29:37,096 [main] INFO  [org.apache.spark.SecurityManager] - Changing modify acls groups to: 
+2019-09-04 18:29:37,097 [main] INFO  [org.apache.spark.SecurityManager] - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Kechel); groups with view permissions: Set(); users  with modify permissions: Set(Kechel); groups with modify permissions: Set()
+2019-09-04 18:29:38,202 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'sparkDriver' on port 49508.
+2019-09-04 18:29:38,218 [main] INFO  [org.apache.spark.SparkEnv] - Registering MapOutputTracker
+2019-09-04 18:29:38,238 [main] INFO  [org.apache.spark.SparkEnv] - Registering BlockManagerMaster
+2019-09-04 18:29:38,240 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-09-04 18:29:38,241 [main] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - BlockManagerMasterEndpoint up
+2019-09-04 18:29:38,275 [main] INFO  [org.apache.spark.storage.DiskBlockManager] - Created local directory at C:\Users\18246\AppData\Local\Temp\blockmgr-b19d45f8-905f-434b-99b6-ca0f35ad1ed2
+2019-09-04 18:29:38,290 [main] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore started with capacity 1988.7 MB
+2019-09-04 18:29:38,332 [main] INFO  [org.apache.spark.SparkEnv] - Registering OutputCommitCoordinator
+2019-09-04 18:29:38,396 [main] INFO  [org.spark_project.jetty.util.log] - Logging initialized @2635ms
+2019-09-04 18:29:38,476 [main] INFO  [org.spark_project.jetty.server.Server] - jetty-9.2.z-SNAPSHOT
+2019-09-04 18:29:38,490 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2d10e0b1{/jobs,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,490 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1c98290c{/jobs/json,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,490 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@172ca72b{/jobs/job,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,491 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5bda80bf{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,491 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@71e5f61d{/stages,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,491 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@2ce86164{/stages/json,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,491 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/stage,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,491 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@51df223b{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,491 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@fd46303{/stages/pool,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,491 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60d8c0dc{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,492 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4204541c{/storage,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,492 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6a62689d{/storage/json,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,492 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@4602c2a9{/storage/rdd,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,492 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@60fa3495{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,492 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@3e2822{/environment,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,492 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@79e18e38{/environment/json,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,492 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@29a60c27{/executors,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,493 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1849db1a{/executors/json,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,493 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@69c79f09{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,493 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@1ca25c47{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,498 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@5fcacc0{/static,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,498 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@533b266e{/,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,499 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6d1d4d7{/api,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,499 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@89ff02e{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,499 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@6865c751{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,507 [main] INFO  [org.spark_project.jetty.server.ServerConnector] - Started Spark@72ccd81a{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:29:38,507 [main] INFO  [org.spark_project.jetty.server.Server] - Started @2746ms
+2019-09-04 18:29:38,507 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'SparkUI' on port 4040.
+2019-09-04 18:29:38,510 [main] INFO  [org.apache.spark.ui.SparkUI] - Bound SparkUI to 0.0.0.0, and started at http://192.168.191.1:4040
+2019-09-04 18:29:38,587 [main] INFO  [org.apache.spark.executor.Executor] - Starting executor ID driver on host localhost
+2019-09-04 18:29:38,613 [main] INFO  [org.apache.spark.util.Utils] - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 49549.
+2019-09-04 18:29:38,614 [main] INFO  [org.apache.spark.network.netty.NettyBlockTransferService] - Server created on 192.168.191.1:49549
+2019-09-04 18:29:38,615 [main] INFO  [org.apache.spark.storage.BlockManager] - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-09-04 18:29:38,616 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registering BlockManager BlockManagerId(driver, 192.168.191.1, 49549, None)
+2019-09-04 18:29:38,619 [dispatcher-event-loop-2] INFO  [org.apache.spark.storage.BlockManagerMasterEndpoint] - Registering block manager 192.168.191.1:49549 with 1988.7 MB RAM, BlockManagerId(driver, 192.168.191.1, 49549, None)
+2019-09-04 18:29:38,621 [main] INFO  [org.apache.spark.storage.BlockManagerMaster] - Registered BlockManager BlockManagerId(driver, 192.168.191.1, 49549, None)
+2019-09-04 18:29:38,622 [main] INFO  [org.apache.spark.storage.BlockManager] - Initialized BlockManager: BlockManagerId(driver, 192.168.191.1, 49549, None)
+2019-09-04 18:29:38,783 [main] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Started o.s.j.s.ServletContextHandler@3c1e23ff{/metrics/json,null,AVAILABLE,@Spark}
+2019-09-04 18:29:38,811 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>初始化Spark完成<<<<<<<<<<<<<<<<<
+2019-09-04 18:29:38,815 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>>>>>>>>开始任务<<<<<<<<<<<<<<<<<<<<<<
+2019-09-04 18:29:38,815 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>采集任务<<<<<<<<<<<<<<<<<
+2019-09-04 18:29:44,953 [Thread-1] INFO  [org.apache.spark.SparkContext] - Invoking stop() from shutdown hook
+2019-09-04 18:29:44,956 [Thread-1] INFO  [org.spark_project.jetty.server.ServerConnector] - Stopped Spark@72ccd81a{HTTP/1.1}{0.0.0.0:4040}
+2019-09-04 18:29:44,958 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6865c751{/stages/stage/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,958 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@89ff02e{/jobs/job/kill,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,958 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6d1d4d7{/api,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,958 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@533b266e{/,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,959 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5fcacc0{/static,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,959 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1ca25c47{/executors/threadDump/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,959 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@69c79f09{/executors/threadDump,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,959 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1849db1a{/executors/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,959 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@29a60c27{/executors,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,959 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@79e18e38{/environment/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,960 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@3e2822{/environment,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,960 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60fa3495{/storage/rdd/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,960 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4602c2a9{/storage/rdd,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,960 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@6a62689d{/storage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,960 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@4204541c{/storage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,960 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@60d8c0dc{/stages/pool/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,960 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@fd46303{/stages/pool,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,960 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@51df223b{/stages/stage/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,960 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5e8f9e2d{/stages/stage,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,960 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2ce86164{/stages/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,960 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@71e5f61d{/stages,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,961 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@5bda80bf{/jobs/job/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,961 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@172ca72b{/jobs/job,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,961 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@1c98290c{/jobs/json,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,961 [Thread-1] INFO  [org.spark_project.jetty.server.handler.ContextHandler] - Stopped o.s.j.s.ServletContextHandler@2d10e0b1{/jobs,null,UNAVAILABLE,@Spark}
+2019-09-04 18:29:44,963 [Thread-1] INFO  [org.apache.spark.ui.SparkUI] - Stopped Spark web UI at http://192.168.191.1:4040
+2019-09-04 18:29:44,970 [dispatcher-event-loop-6] INFO  [org.apache.spark.MapOutputTrackerMasterEndpoint] - MapOutputTrackerMasterEndpoint stopped!
+2019-09-04 18:29:44,978 [Thread-1] INFO  [org.apache.spark.storage.memory.MemoryStore] - MemoryStore cleared
+2019-09-04 18:29:44,979 [Thread-1] INFO  [org.apache.spark.storage.BlockManager] - BlockManager stopped
+2019-09-04 18:29:44,984 [Thread-1] INFO  [org.apache.spark.storage.BlockManagerMaster] - BlockManagerMaster stopped
+2019-09-04 18:29:44,987 [dispatcher-event-loop-3] INFO  [org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint] - OutputCommitCoordinator stopped!
+2019-09-04 18:29:44,989 [Thread-1] INFO  [org.apache.spark.SparkContext] - Successfully stopped SparkContext
+2019-09-04 18:29:44,989 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Shutdown hook called
+2019-09-04 18:29:44,989 [Thread-1] INFO  [org.apache.spark.util.ShutdownHookManager] - Deleting directory C:\Users\18246\AppData\Local\Temp\spark-0223f6d1-418c-4223-9a0c-8bda48e78abd

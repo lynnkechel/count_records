@@ -1,0 +1,5 @@
+2019-09-09 18:16:35,118 [main] INFO  [com.inforefiner.util.LogsUtils] - >> log4jPathD:\Code\count_records\src\main\resources\log4j.properties
+2019-09-09 18:16:35,131 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>>>>>>>>开始任务<<<<<<<<<<<<<<<<<<<<<<
+2019-09-09 18:16:35,132 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - >>>>>>>>>>>>>>>>>采集任务<<<<<<<<<<<<<<<<<
+2019-09-09 18:16:44,647 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - 开始时间：2019-09-09 06:16:35
+2019-09-09 18:16:44,647 [main] ERROR [com.inforefiner.excuter.CountRecordsExcuter$] - 结束时间：2019-09-09 06:16:44
